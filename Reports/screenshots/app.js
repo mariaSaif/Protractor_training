@@ -10180,6 +10180,875 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "screenShotFile": "006f00e3-000e-0090-00ef-005b002b00f5.png",
         "timestamp": 1589799394956,
         "duration": 1642
+    },
+    {
+        "description": "Verify Page title|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "00968cef206db221939dcbfd10daaa12",
+        "instanceId": 3848,
+        "browser": {
+            "name": "chrome",
+            "version": "81.0.4044.138"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"This API is deprecated and will be shutdown on 6/30/2020.\\n\\nPlease migrate to the new One Tap API at https://developers.google.com/identity/one-tap/web as soon as possible.\"",
+                "timestamp": 1589804600133,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "0069007b-00e4-009c-0077-004c006b00c6.png",
+        "timestamp": 1589804593262,
+        "duration": 9461
+    },
+    {
+        "description": "Verify KAYAK Logo|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "00968cef206db221939dcbfd10daaa12",
+        "instanceId": 3848,
+        "browser": {
+            "name": "chrome",
+            "version": "81.0.4044.138"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotel-rooms-selected' is being overwritten.\"",
+                "timestamp": 1589804602920,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotels_results_searchType' is being overwritten.\"",
+                "timestamp": 1589804602950,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotels_results_locationId' is being overwritten.\"",
+                "timestamp": 1589804602950,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_freebies_state' is being overwritten.\"",
+                "timestamp": 1589804603001,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_stars_state' is being overwritten.\"",
+                "timestamp": 1589804603003,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_extendedrating_state' is being overwritten.\"",
+                "timestamp": 1589804603006,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_price_state' is being overwritten.\"",
+                "timestamp": 1589804603024,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_hotelname_state' is being overwritten.\"",
+                "timestamp": 1589804603025,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_hotelchain_state' is being overwritten.\"",
+                "timestamp": 1589804603025,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_location_state' is being overwritten.\"",
+                "timestamp": 1589804603031,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_neighborhoods_state' is being overwritten.\"",
+                "timestamp": 1589804603038,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_amenities_state' is being overwritten.\"",
+                "timestamp": 1589804603039,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_ambiance_state' is being overwritten.\"",
+                "timestamp": 1589804603039,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_property_state' is being overwritten.\"",
+                "timestamp": 1589804603041,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_price-options_state' is being overwritten.\"",
+                "timestamp": 1589804603043,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_providers_state' is being overwritten.\"",
+                "timestamp": 1589804603044,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'SearchFailed_isNoResultsStatus' is being overwritten.\"",
+                "timestamp": 1589804603059,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://www.kayak.com/hotels - A cookie associated with a cross-site resource at http://a.cdn.intentmedia.net/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
+                "timestamp": 1589804603787,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"This API is deprecated and will be shutdown on 6/30/2020.\\n\\nPlease migrate to the new One Tap API at https://developers.google.com/identity/one-tap/web as soon as possible.\"",
+                "timestamp": 1589804605342,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "0021001e-00dc-0075-0032-005e002f00c8.png",
+        "timestamp": 1589804603663,
+        "duration": 1622
+    },
+    {
+        "description": "click on hotels link|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "00968cef206db221939dcbfd10daaa12",
+        "instanceId": 3848,
+        "browser": {
+            "name": "chrome",
+            "version": "81.0.4044.138"
+        },
+        "message": "Passed",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotel-rooms-selected' is being overwritten.\"",
+                "timestamp": 1589804606227,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotels_results_searchType' is being overwritten.\"",
+                "timestamp": 1589804606240,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotels_results_locationId' is being overwritten.\"",
+                "timestamp": 1589804606240,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_freebies_state' is being overwritten.\"",
+                "timestamp": 1589804606305,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_stars_state' is being overwritten.\"",
+                "timestamp": 1589804606313,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_extendedrating_state' is being overwritten.\"",
+                "timestamp": 1589804606316,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_price_state' is being overwritten.\"",
+                "timestamp": 1589804606330,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_hotelname_state' is being overwritten.\"",
+                "timestamp": 1589804606331,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_hotelchain_state' is being overwritten.\"",
+                "timestamp": 1589804606334,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_location_state' is being overwritten.\"",
+                "timestamp": 1589804606337,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_neighborhoods_state' is being overwritten.\"",
+                "timestamp": 1589804606348,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_amenities_state' is being overwritten.\"",
+                "timestamp": 1589804606350,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_ambiance_state' is being overwritten.\"",
+                "timestamp": 1589804606351,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_property_state' is being overwritten.\"",
+                "timestamp": 1589804606353,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_price-options_state' is being overwritten.\"",
+                "timestamp": 1589804606355,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_providers_state' is being overwritten.\"",
+                "timestamp": 1589804606357,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'SearchFailed_isNoResultsStatus' is being overwritten.\"",
+                "timestamp": 1589804606369,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://www.kayak.com/hotels - A cookie associated with a cross-site resource at http://a.cdn.intentmedia.net/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
+                "timestamp": 1589804606816,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"This API is deprecated and will be shutdown on 6/30/2020.\\n\\nPlease migrate to the new One Tap API at https://developers.google.com/identity/one-tap/web as soon as possible.\"",
+                "timestamp": 1589804608383,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00320015-009f-0025-007e-00dc0003004a.png",
+        "timestamp": 1589804606207,
+        "duration": 3507
+    },
+    {
+        "description": "Verify if Origin field is present|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "00968cef206db221939dcbfd10daaa12",
+        "instanceId": 3848,
+        "browser": {
+            "name": "chrome",
+            "version": "81.0.4044.138"
+        },
+        "message": [
+            "Expected false to be true."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\React_App_TC.js:27:45)\n    at D:\\Proractor-workspace\\protractor_training\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (D:\\Proractor-workspace\\protractor_training\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (D:\\Proractor-workspace\\protractor_training\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (D:\\Proractor-workspace\\protractor_training\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (D:\\Proractor-workspace\\protractor_training\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (D:\\Proractor-workspace\\protractor_training\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at D:\\Proractor-workspace\\protractor_training\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at D:\\Proractor-workspace\\protractor_training\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"This API is deprecated and will be shutdown on 6/30/2020.\\n\\nPlease migrate to the new One Tap API at https://developers.google.com/identity/one-tap/web as soon as possible.\"",
+                "timestamp": 1589804610410,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://www.kayak.com/hotels - A cookie associated with a cross-site resource at http://a.cdn.intentmedia.net/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
+                "timestamp": 1589804611204,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "000f0040-006d-0076-00d0-001b002300f0.png",
+        "timestamp": 1589804610826,
+        "duration": 1536
+    },
+    {
+        "description": "Verify if text 1 room, 2 guests is present|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "00968cef206db221939dcbfd10daaa12",
+        "instanceId": 3848,
+        "browser": {
+            "name": "chrome",
+            "version": "81.0.4044.138"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"This API is deprecated and will be shutdown on 6/30/2020.\\n\\nPlease migrate to the new One Tap API at https://developers.google.com/identity/one-tap/web as soon as possible.\"",
+                "timestamp": 1589804612449,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotel-rooms-selected' is being overwritten.\"",
+                "timestamp": 1589804613181,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotels_results_searchType' is being overwritten.\"",
+                "timestamp": 1589804613196,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotels_results_locationId' is being overwritten.\"",
+                "timestamp": 1589804613197,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_freebies_state' is being overwritten.\"",
+                "timestamp": 1589804613241,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_stars_state' is being overwritten.\"",
+                "timestamp": 1589804613243,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_extendedrating_state' is being overwritten.\"",
+                "timestamp": 1589804613245,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_price_state' is being overwritten.\"",
+                "timestamp": 1589804613263,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_hotelname_state' is being overwritten.\"",
+                "timestamp": 1589804613264,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_hotelchain_state' is being overwritten.\"",
+                "timestamp": 1589804613266,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_location_state' is being overwritten.\"",
+                "timestamp": 1589804613270,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_neighborhoods_state' is being overwritten.\"",
+                "timestamp": 1589804613276,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_amenities_state' is being overwritten.\"",
+                "timestamp": 1589804613278,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_ambiance_state' is being overwritten.\"",
+                "timestamp": 1589804613279,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_property_state' is being overwritten.\"",
+                "timestamp": 1589804613281,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_price-options_state' is being overwritten.\"",
+                "timestamp": 1589804613282,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_providers_state' is being overwritten.\"",
+                "timestamp": 1589804613283,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'SearchFailed_isNoResultsStatus' is being overwritten.\"",
+                "timestamp": 1589804613292,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://www.kayak.com/hotels - A cookie associated with a cross-site resource at http://a.cdn.intentmedia.net/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
+                "timestamp": 1589804613443,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"This API is deprecated and will be shutdown on 6/30/2020.\\n\\nPlease migrate to the new One Tap API at https://developers.google.com/identity/one-tap/web as soon as possible.\"",
+                "timestamp": 1589804614859,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00060032-00cc-005d-00c9-001300620003.png",
+        "timestamp": 1589804613077,
+        "duration": 1756
+    },
+    {
+        "description": "Start Date Field present|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "00968cef206db221939dcbfd10daaa12",
+        "instanceId": 3848,
+        "browser": {
+            "name": "chrome",
+            "version": "81.0.4044.138"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotel-rooms-selected' is being overwritten.\"",
+                "timestamp": 1589804615757,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotels_results_searchType' is being overwritten.\"",
+                "timestamp": 1589804615850,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotels_results_locationId' is being overwritten.\"",
+                "timestamp": 1589804615850,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_freebies_state' is being overwritten.\"",
+                "timestamp": 1589804615979,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_stars_state' is being overwritten.\"",
+                "timestamp": 1589804615980,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_extendedrating_state' is being overwritten.\"",
+                "timestamp": 1589804616003,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_price_state' is being overwritten.\"",
+                "timestamp": 1589804616029,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_hotelname_state' is being overwritten.\"",
+                "timestamp": 1589804616029,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_hotelchain_state' is being overwritten.\"",
+                "timestamp": 1589804616034,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_location_state' is being overwritten.\"",
+                "timestamp": 1589804616035,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_neighborhoods_state' is being overwritten.\"",
+                "timestamp": 1589804616048,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_amenities_state' is being overwritten.\"",
+                "timestamp": 1589804616065,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_ambiance_state' is being overwritten.\"",
+                "timestamp": 1589804616069,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_property_state' is being overwritten.\"",
+                "timestamp": 1589804616069,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_price-options_state' is being overwritten.\"",
+                "timestamp": 1589804616070,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_providers_state' is being overwritten.\"",
+                "timestamp": 1589804616070,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'SearchFailed_isNoResultsStatus' is being overwritten.\"",
+                "timestamp": 1589804616116,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://www.kayak.com/hotels - A cookie associated with a cross-site resource at http://a.cdn.intentmedia.net/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
+                "timestamp": 1589804616316,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"This API is deprecated and will be shutdown on 6/30/2020.\\n\\nPlease migrate to the new One Tap API at https://developers.google.com/identity/one-tap/web as soon as possible.\"",
+                "timestamp": 1589804618106,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00650030-005d-0052-00b6-00d000db0047.png",
+        "timestamp": 1589804616712,
+        "duration": 1405
+    },
+    {
+        "description": "End Date Field present|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "00968cef206db221939dcbfd10daaa12",
+        "instanceId": 3848,
+        "browser": {
+            "name": "chrome",
+            "version": "81.0.4044.138"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotel-rooms-selected' is being overwritten.\"",
+                "timestamp": 1589804618965,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotels_results_searchType' is being overwritten.\"",
+                "timestamp": 1589804618980,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotels_results_locationId' is being overwritten.\"",
+                "timestamp": 1589804618980,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_freebies_state' is being overwritten.\"",
+                "timestamp": 1589804619017,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_stars_state' is being overwritten.\"",
+                "timestamp": 1589804619018,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_extendedrating_state' is being overwritten.\"",
+                "timestamp": 1589804619022,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_price_state' is being overwritten.\"",
+                "timestamp": 1589804619033,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_hotelname_state' is being overwritten.\"",
+                "timestamp": 1589804619033,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_hotelchain_state' is being overwritten.\"",
+                "timestamp": 1589804619035,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_location_state' is being overwritten.\"",
+                "timestamp": 1589804619040,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_neighborhoods_state' is being overwritten.\"",
+                "timestamp": 1589804619045,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_amenities_state' is being overwritten.\"",
+                "timestamp": 1589804619046,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_ambiance_state' is being overwritten.\"",
+                "timestamp": 1589804619047,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_property_state' is being overwritten.\"",
+                "timestamp": 1589804619048,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_price-options_state' is being overwritten.\"",
+                "timestamp": 1589804619050,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_providers_state' is being overwritten.\"",
+                "timestamp": 1589804619051,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'SearchFailed_isNoResultsStatus' is being overwritten.\"",
+                "timestamp": 1589804619061,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://www.kayak.com/hotels - A cookie associated with a cross-site resource at http://a.cdn.intentmedia.net/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
+                "timestamp": 1589804619182,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"This API is deprecated and will be shutdown on 6/30/2020.\\n\\nPlease migrate to the new One Tap API at https://developers.google.com/identity/one-tap/web as soon as possible.\"",
+                "timestamp": 1589804620246,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "003400a4-0020-004b-00c1-000a005600cc.png",
+        "timestamp": 1589804618714,
+        "duration": 1512
+    },
+    {
+        "description": "End Date Field present|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "00968cef206db221939dcbfd10daaa12",
+        "instanceId": 3848,
+        "browser": {
+            "name": "chrome",
+            "version": "81.0.4044.138"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotel-rooms-selected' is being overwritten.\"",
+                "timestamp": 1589804620905,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotels_results_searchType' is being overwritten.\"",
+                "timestamp": 1589804620917,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'hotels_results_locationId' is being overwritten.\"",
+                "timestamp": 1589804620917,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_freebies_state' is being overwritten.\"",
+                "timestamp": 1589804620960,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_stars_state' is being overwritten.\"",
+                "timestamp": 1589804620961,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_extendedrating_state' is being overwritten.\"",
+                "timestamp": 1589804620963,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_price_state' is being overwritten.\"",
+                "timestamp": 1589804620975,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_hotelname_state' is being overwritten.\"",
+                "timestamp": 1589804620976,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_hotelchain_state' is being overwritten.\"",
+                "timestamp": 1589804620983,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_location_state' is being overwritten.\"",
+                "timestamp": 1589804620983,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_neighborhoods_state' is being overwritten.\"",
+                "timestamp": 1589804620989,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_amenities_state' is being overwritten.\"",
+                "timestamp": 1589804620989,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_ambiance_state' is being overwritten.\"",
+                "timestamp": 1589804620991,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_property_state' is being overwritten.\"",
+                "timestamp": 1589804620992,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_price-options_state' is being overwritten.\"",
+                "timestamp": 1589804620994,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'filters_providers_state' is being overwritten.\"",
+                "timestamp": 1589804620995,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"Duplicate question name 'SearchFailed_isNoResultsStatus' is being overwritten.\"",
+                "timestamp": 1589804621004,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://www.kayak.com/hotels - A cookie associated with a cross-site resource at http://a.cdn.intentmedia.net/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
+                "timestamp": 1589804621172,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://www.googletagservices.com/tag/js/gpt.js 5 The PerformanceObserver does not support buffered flag with the entryTypes argument.",
+                "timestamp": 1589804622099,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "https://content.r9cdn.net/res/combined.js?v=223642b44501c03c1d49968ca3bfdbcac8d343dd&cluster=5 0:74181 \"This API is deprecated and will be shutdown on 6/30/2020.\\n\\nPlease migrate to the new One Tap API at https://developers.google.com/identity/one-tap/web as soon as possible.\"",
+                "timestamp": 1589804622492,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "006c00c4-002f-002a-0023-00e500fb0032.png",
+        "timestamp": 1589804620812,
+        "duration": 1782
     }
 ];
 
