@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "training assigment",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git:https://github.com/mariaSaif/Protractor_training"
+  },
   "dependencies": {
     "jasmine": "3.1.0",
     "jasmine-data-provider": "^2.2.0",
