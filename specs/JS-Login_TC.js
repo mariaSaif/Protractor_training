@@ -1,4 +1,6 @@
-
+var login_objects = require('../pageObjects_pages/user_LoginPOM')
+var helper = require('../utils/Helper')
+var message = require('../utils/messages')
 describe('Protractor Demo App', function() {
   beforeEach(function(){
     browser.get('http://www.way2automation.com/angularjs-protractor/registeration/#/login');
@@ -7,28 +9,25 @@ describe('Protractor Demo App', function() {
     browser.driver.manage().window().setSize(width, height);
   });
 
-    it('Login /Logout over angular application', function() {
-        
-        element(by.model('Auth.user.name')).sendKeys("angular");
-        element(by.model('Auth.user.password')).sendKeys("password");
-        element(by.id('formly_1_input_username_0')).sendKeys("angular");
-        element(by.xpath("//button[@class='btn btn-danger']")).click();
-        var foo = element(by.xpath("//div[@class='ng-scope']/h1"));
-        expect(foo.getText()).toEqual('Home');
-        //click on logout
-        element(by.xpath("//div[@class='ng-scope']/p/following-sibling::p/a[contains(text(),'Logout')]")).click();
+  it('should have a title', function() {
+    expect(browser.getTitle()).toEqual(message.loginSiteTitle);
+  });
 
-      });
+  it('login with correct userName and password and verify home Page title and logout',function(){
+    helper.login("angular","password","angular");
+    browser.sleep(2000);
+    var expectedValue = login_objects.homePageTitle().getText();
+     expect(expectedValue).toContain(message.HomePagetitle); 
+     helper.logout();
+  });
 
-      it('Verify error message on incorrect credentials', function() {
-        element(by.model('Auth.user.name')).sendKeys("angularr");
-        element(by.model('Auth.user.password')).sendKeys("password");
-        element(by.id('formly_1_input_username_0')).sendKeys("angularr");
-        element(by.xpath("//button[@class='btn btn-danger']")).click();
-        //verify message on incorrect UserName
-        var foo = element(by.xpath("//div[@class='alert alert-danger ng-binding ng-scope']"));
-        expect(foo.getText()).toEqual('Username or password is incorrect');
-      });
+  it('login with incorrect userName and password and verify invalid credentails Message',function(){
+    helper.login("angularr","password","angularr");
+    browser.sleep(5000);
+    var expectedValue = login_objects.getAlertText().getText();
+     expect(expectedValue).toContain(message.invalidCredentials); 
+   
+  });
 
       afterEach(function(){
         console.log("TestCases Executed Successfully");

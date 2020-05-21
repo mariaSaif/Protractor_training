@@ -11049,6 +11049,1090 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "screenShotFile": "006c00c4-002f-002a-0023-00e500fb0032.png",
         "timestamp": 1589804620812,
         "duration": 1782
+    },
+    {
+        "description": "should have a title|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "b4840dca9494afff9f097be666908836",
+        "instanceId": 11236,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00110047-0099-009b-000e-00000068003e.png",
+        "timestamp": 1590053425021,
+        "duration": 6196
+    },
+    {
+        "description": "should throw error on invalid login|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "b4840dca9494afff9f097be666908836",
+        "instanceId": 11236,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Failed: login_objects.homePageTitle.getText is not a function"
+        ],
+        "trace": [
+            "TypeError: login_objects.homePageTitle.getText is not a function\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:18:53)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: Run it(\"should throw error on invalid login\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:16:3)\n    at addSpecsToSuite (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:4:1)\n    at Module._compile (internal/modules/cjs/loader.js:1151:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1171:10)\n    at Module.load (internal/modules/cjs/loader.js:1000:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:899:14)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "009300b9-00af-0037-00b0-009f006e000e.png",
+        "timestamp": 1590053431704,
+        "duration": 194
+    },
+    {
+        "description": "should have a title|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "86554a99ecb08b393914a754c0057916",
+        "instanceId": 17380,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "003e0088-00d2-0008-00d6-002000ba00e6.png",
+        "timestamp": 1590053528106,
+        "duration": 3803
+    },
+    {
+        "description": "should throw error on invalid login|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "86554a99ecb08b393914a754c0057916",
+        "instanceId": 17380,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Failed: No element found using locator: By(xpath, //div[@class='ng-scope']/h1)"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(xpath, //div[@class='ng-scope']/h1)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27\n    at ManagedPromise.invokeCallback_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.<computed> [as getText] (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.<computed> [as getText] (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:18:55)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"should throw error on invalid login\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:16:3)\n    at addSpecsToSuite (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:4:1)\n    at Module._compile (internal/modules/cjs/loader.js:1151:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1171:10)\n    at Module.load (internal/modules/cjs/loader.js:1000:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:899:14)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00ae0072-00ca-00c9-00b1-008b007f0037.png",
+        "timestamp": 1590053532314,
+        "duration": 761
+    },
+    {
+        "description": "should have a title|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "f0d2c39868c7dd86966459a3f592ca90",
+        "instanceId": 19204,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00180037-0030-009c-0013-00b800470040.png",
+        "timestamp": 1590053631555,
+        "duration": 3865
+    },
+    {
+        "description": "should throw error on invalid login|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "f0d2c39868c7dd86966459a3f592ca90",
+        "instanceId": 19204,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00b500ca-00f1-0023-009b-006800660081.png",
+        "timestamp": 1590053636000,
+        "duration": 10862
+    },
+    {
+        "description": "should have a title|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "c44fcb008cfe6abef20b54f9d1323fc3",
+        "instanceId": 7872,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "003400c2-00fb-0026-002f-0018003e0048.png",
+        "timestamp": 1590053675081,
+        "duration": 4339
+    },
+    {
+        "description": "should throw error on invalid login|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "c44fcb008cfe6abef20b54f9d1323fc3",
+        "instanceId": 7872,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00270046-00a8-0071-009a-000d0000001d.png",
+        "timestamp": 1590053679831,
+        "duration": 6061
+    },
+    {
+        "description": "should have a title|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "f50ef6f675a1b4188a9893aa90ac359c",
+        "instanceId": 6596,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "002700c4-0090-00b1-00cb-00a800cf00dd.png",
+        "timestamp": 1590055266315,
+        "duration": 3880
+    },
+    {
+        "description": "should throw error on invalid login|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "f50ef6f675a1b4188a9893aa90ac359c",
+        "instanceId": 6596,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Failed: No element found using locator: By(xpath, //div[@class='ng-scope']/h1)"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(xpath, //div[@class='ng-scope']/h1)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27\n    at ManagedPromise.invokeCallback_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.<computed> [as getText] (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.<computed> [as getText] (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:18:55)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"should throw error on invalid login\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:16:3)\n    at addSpecsToSuite (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:4:1)\n    at Module._compile (internal/modules/cjs/loader.js:1151:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1171:10)\n    at Module.load (internal/modules/cjs/loader.js:1000:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:899:14)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00c60065-0049-006c-0054-00e300780009.png",
+        "timestamp": 1590055270670,
+        "duration": 825
+    },
+    {
+        "description": "should have a title|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "8c1d49def648853230f661919e11cb41",
+        "instanceId": 8876,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00cd0064-0067-001d-007d-00a900890092.png",
+        "timestamp": 1590055313768,
+        "duration": 4234
+    },
+    {
+        "description": "should throw error on invalid login|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "8c1d49def648853230f661919e11cb41",
+        "instanceId": 8876,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Failed: No element found using locator: By(xpath, //div[@class='ng-scope']/h1)"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(xpath, //div[@class='ng-scope']/h1)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27\n    at ManagedPromise.invokeCallback_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.<computed> [as getText] (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.<computed> [as getText] (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:19:55)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\nFrom: Task: Run it(\"should throw error on invalid login\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:16:3)\n    at addSpecsToSuite (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:4:1)\n    at Module._compile (internal/modules/cjs/loader.js:1151:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1171:10)\n    at Module.load (internal/modules/cjs/loader.js:1000:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:899:14)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "005e00c7-0019-0062-007a-0047001c00ce.png",
+        "timestamp": 1590055318394,
+        "duration": 1949
+    },
+    {
+        "description": "should have a title|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "bed2e8a9c77dd5855b06daa713140b62",
+        "instanceId": 3504,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00ad00bb-0091-007f-0029-00e700a5007e.png",
+        "timestamp": 1590055342662,
+        "duration": 6584
+    },
+    {
+        "description": "should throw error on invalid login|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "bed2e8a9c77dd5855b06daa713140b62",
+        "instanceId": 3504,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "0041000c-003d-0072-00f2-00c200bc00ba.png",
+        "timestamp": 1590055349656,
+        "duration": 3242
+    },
+    {
+        "description": "should have a title|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "7dfcdde407f557af4b615d9b9989d280",
+        "instanceId": 12172,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "004a0088-00d9-005c-0050-0050007800a3.png",
+        "timestamp": 1590055546771,
+        "duration": 3677
+    },
+    {
+        "description": "login with correct userName and password and verify home Page title and logout|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "7dfcdde407f557af4b615d9b9989d280",
+        "instanceId": 12172,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00c000e1-00bb-00ff-00c9-0067004700d9.png",
+        "timestamp": 1590055550849,
+        "duration": 2976
+    },
+    {
+        "description": "login with incorrect userName and password and verify invalid credentails Message|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "7dfcdde407f557af4b615d9b9989d280",
+        "instanceId": 12172,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Failed: No element found using locator: By(css selector, *[id=\"formly_1_input_username_0\"])"
+        ],
+        "trace": [
+            "NoSuchElementError: No element found using locator: By(css selector, *[id=\"formly_1_input_username_0\"])\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27\n    at ManagedPromise.invokeCallback_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.<computed> [as sendKeys] (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.<computed> [as sendKeys] (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at Object.login (D:\\Proractor-workspace\\protractor_training\\utils\\Helper.js:34:45)\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:25:12)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\nFrom: Task: Run it(\"login with incorrect userName and password and verify invalid credentails Message\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:24:3)\n    at addSpecsToSuite (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:4:1)\n    at Module._compile (internal/modules/cjs/loader.js:1151:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1171:10)\n    at Module.load (internal/modules/cjs/loader.js:1000:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:899:14)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "007300ca-00bd-0063-00e1-000d00ee008b.png",
+        "timestamp": 1590055554205,
+        "duration": 454
+    },
+    {
+        "description": "should have a title|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "c956ee91ce799392a1045254793e1c66",
+        "instanceId": 7992,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.css - Failed to load resource: net::ERR_CONNECTION_RESET",
+                "timestamp": 1590055700587,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js - Failed to load resource: net::ERR_CONNECTION_RESET",
+                "timestamp": 1590055700589,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://cdnjs.cloudflare.com/ajax/libs/angular-formly-templates-bootstrap/6.1.5/angular-formly-templates-bootstrap.js - Failed to load resource: net::ERR_CONNECTION_RESET",
+                "timestamp": 1590055700590,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://cdnjs.cloudflare.com/ajax/libs/angular-formly/7.2.3/formly.js - Failed to load resource: net::ERR_CONNECTION_RESET",
+                "timestamp": 1590055700590,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.js 23:28 Uncaught TypeError: Cannot read property 'module' of undefined",
+                "timestamp": 1590055701398,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-cookies.js 23:8 Uncaught TypeError: Cannot read property 'module' of undefined",
+                "timestamp": 1590055701402,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-messages.js 9:22 Uncaught TypeError: Cannot read property 'isArray' of undefined",
+                "timestamp": 1590055701404,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.way2automation.com/angularjs-protractor/registeration/modules/authentication/services.js 116:18 Uncaught ReferenceError: angular is not defined",
+                "timestamp": 1590055701405,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.way2automation.com/angularjs-protractor/registeration/modules/authentication/controllers.js 40:2 Uncaught ReferenceError: angular is not defined",
+                "timestamp": 1590055701407,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.way2automation.com/angularjs-protractor/registeration/modules/home/controllers.js 3:2 Uncaught ReferenceError: angular is not defined",
+                "timestamp": 1590055701408,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.way2automation.com/angularjs-protractor/registeration/scripts/app.js 55:2 Uncaught ReferenceError: angular is not defined",
+                "timestamp": 1590055701408,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "00d0005e-0081-0066-00f7-00210002005b.png",
+        "timestamp": 1590055698269,
+        "duration": 5324
+    },
+    {
+        "description": "login with correct userName and password and verify home Page title and logout|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "c956ee91ce799392a1045254793e1c66",
+        "instanceId": 7992,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Failed: javascript error: angular is not defined\n  (Session info: chrome=83.0.4103.61)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'LAPTOP-105', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: unknown"
+        ],
+        "trace": [
+            "JavascriptError: javascript error: angular is not defined\n  (Session info: chrome=83.0.4103.61)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'LAPTOP-105', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: unknown\n    at Object.checkLegacyResponse (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.executeScript()\n    at thenableWebDriverProxy.schedule (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at thenableWebDriverProxy.executeScript (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:878:16)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\by.js:191:35\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1068:28\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:907:19\n    at ManagedPromise.invokeCallback_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: WebDriver.call(function)\n    at thenableWebDriverProxy.call (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:901:23)\n    at thenableWebDriverProxy.findElementsInternal_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1068:17)\n    at thenableWebDriverProxy.findElements (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1043:19)\n    at Object.findElementsOverride (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\locators.js:177:31)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:156:40\n    at ManagedPromise.invokeCallback_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.<computed> [as sendKeys] (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.<computed> [as sendKeys] (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at Object.login (D:\\Proractor-workspace\\protractor_training\\utils\\Helper.js:32:44)\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:17:12)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\nFrom: Task: Run it(\"login with correct userName and password and verify home Page title and logout\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:16:3)\n    at addSpecsToSuite (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:4:1)\n    at Module._compile (internal/modules/cjs/loader.js:1151:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1171:10)\n    at Module.load (internal/modules/cjs/loader.js:1000:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:899:14)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "003a00f9-007d-0053-0076-0020006e00ce.png",
+        "timestamp": 1590055704012,
+        "duration": 187
+    },
+    {
+        "description": "login with incorrect userName and password and verify invalid credentails Message|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "c956ee91ce799392a1045254793e1c66",
+        "instanceId": 7992,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Failed: javascript error: angular is not defined\n  (Session info: chrome=83.0.4103.61)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'LAPTOP-105', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: unknown"
+        ],
+        "trace": [
+            "JavascriptError: javascript error: angular is not defined\n  (Session info: chrome=83.0.4103.61)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'LAPTOP-105', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: unknown\n    at Object.checkLegacyResponse (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.executeScript()\n    at thenableWebDriverProxy.schedule (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at thenableWebDriverProxy.executeScript (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:878:16)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\by.js:191:35\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1068:28\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:907:19\n    at ManagedPromise.invokeCallback_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: WebDriver.call(function)\n    at thenableWebDriverProxy.call (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:901:23)\n    at thenableWebDriverProxy.findElementsInternal_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1068:17)\n    at thenableWebDriverProxy.findElements (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1043:19)\n    at Object.findElementsOverride (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\locators.js:177:31)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:156:40\n    at ManagedPromise.invokeCallback_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.<computed> [as sendKeys] (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.<computed> [as sendKeys] (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at Object.login (D:\\Proractor-workspace\\protractor_training\\utils\\Helper.js:32:44)\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:25:12)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\nFrom: Task: Run it(\"login with incorrect userName and password and verify invalid credentails Message\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:24:3)\n    at addSpecsToSuite (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-Login_TC.js:4:1)\n    at Module._compile (internal/modules/cjs/loader.js:1151:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1171:10)\n    at Module.load (internal/modules/cjs/loader.js:1000:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:899:14)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00d900f4-002f-005d-005e-007e00b100eb.png",
+        "timestamp": 1590055704577,
+        "duration": 231
+    },
+    {
+        "description": "should have a title|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "7c70c871d313d8fb32e5c3d4172f120e",
+        "instanceId": 14992,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00d00081-002a-001b-00d1-008a00d40095.png",
+        "timestamp": 1590055915011,
+        "duration": 3747
+    },
+    {
+        "description": "login with correct userName and password and verify home Page title and logout|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "7c70c871d313d8fb32e5c3d4172f120e",
+        "instanceId": 14992,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00810055-0048-002a-007c-003300a600ad.png",
+        "timestamp": 1590055919196,
+        "duration": 2919
+    },
+    {
+        "description": "login with incorrect userName and password and verify invalid credentails Message|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "7c70c871d313d8fb32e5c3d4172f120e",
+        "instanceId": 14992,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00590040-0023-00c7-00c9-005e004500fa.png",
+        "timestamp": 1590055922522,
+        "duration": 5735
+    },
+    {
+        "description": "encountered a declaration exception|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "1b561727d97b5764ac8064cc951e420b",
+        "instanceId": 20008,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "ReferenceError: user is not defined"
+        ],
+        "trace": [
+            "ReferenceError: user is not defined\n    at Suite.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:15:11)\n    at addSpecsToSuite (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:5:1)\n    at Module._compile (internal/modules/cjs/loader.js:1151:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1171:10)\n    at Module.load (internal/modules/cjs/loader.js:1000:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:899:14)\n    at Module.require (internal/modules/cjs/loader.js:1040:19)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00a10041-005b-00f6-0042-00d0004600f3.png",
+        "timestamp": 1590056396774,
+        "duration": 5404
+    },
+    {
+        "description": "encountered a declaration exception|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "89d93fb4324c2a312fb438dac05571d1",
+        "instanceId": 16312,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "ReferenceError: user is not defined"
+        ],
+        "trace": [
+            "ReferenceError: user is not defined\n    at Suite.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:15:11)\n    at addSpecsToSuite (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:5:1)\n    at Module._compile (internal/modules/cjs/loader.js:1151:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1171:10)\n    at Module.load (internal/modules/cjs/loader.js:1000:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:899:14)\n    at Module.require (internal/modules/cjs/loader.js:1040:19)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00570011-00e0-00ec-0054-00c6006d00c1.png",
+        "timestamp": 1590056631776,
+        "duration": 4448
+    },
+    {
+        "description": "should add a user and validate the correct user is being added Maria Saif|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "4e460c5abf3f80229897e4ff9dd5158f",
+        "instanceId": 14612,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00bf0014-00f0-0008-00dc-00fd00a2005f.png",
+        "timestamp": 1590056845321,
+        "duration": 6461
+    },
+    {
+        "description": "should add a user and validate the correct user is being added test user|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "4e460c5abf3f80229897e4ff9dd5158f",
+        "instanceId": 14612,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00930051-0042-0058-002c-008300c5000f.png",
+        "timestamp": 1590056852234,
+        "duration": 2212
+    },
+    {
+        "description": "should add a user and validate the correct user is being added Maria Saif|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "a99c3d2b42e20cdab52b4f5139cc7ebe",
+        "instanceId": 16892,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "002600ca-0016-0024-00ba-003b001c00ec.png",
+        "timestamp": 1590057010213,
+        "duration": 6612
+    },
+    {
+        "description": "should update a user and validate the correct user is being updated Maria Saif|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "a99c3d2b42e20cdab52b4f5139cc7ebe",
+        "instanceId": 16892,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Expected 'Mark saif' to match 'maria saif'."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:27:46)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00c5005d-0044-006a-00a5-0022003f009b.png",
+        "timestamp": 1590057017276,
+        "duration": 2610
+    },
+    {
+        "description": "should update a user and validate the correct user is being updated test user|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "a99c3d2b42e20cdab52b4f5139cc7ebe",
+        "instanceId": 16892,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Expected 'Mark last name' to match 'first name last name'."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:27:46)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "005c00cf-0052-005f-0061-00b000df009a.png",
+        "timestamp": 1590057020278,
+        "duration": 2217
+    },
+    {
+        "description": "should add a user and validate the correct user is being added test user|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "a99c3d2b42e20cdab52b4f5139cc7ebe",
+        "instanceId": 16892,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "0076000d-0024-0087-00bc-004200730088.png",
+        "timestamp": 1590057022880,
+        "duration": 1865
+    },
+    {
+        "description": "should update a user and validate the correct user is being updated Maria Saif|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "a99c3d2b42e20cdab52b4f5139cc7ebe",
+        "instanceId": 16892,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Expected 'Mark saif' to match 'maria saif'."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:27:46)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "004b002f-004e-00d5-0012-006f0003009a.png",
+        "timestamp": 1590057025148,
+        "duration": 2100
+    },
+    {
+        "description": "should update a user and validate the correct user is being updated test user|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "a99c3d2b42e20cdab52b4f5139cc7ebe",
+        "instanceId": 16892,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Expected 'Mark last name' to match 'first name last name'."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:27:46)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00f40059-00ec-0057-0095-00d000db0051.png",
+        "timestamp": 1590057027594,
+        "duration": 1856
+    },
+    {
+        "description": "should add a user and validate the correct user is being added Maria Saif|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "fc775e5c9d84235dfb2ad471c2910d54",
+        "instanceId": 18116,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00000034-00e6-00c7-00dd-007500410067.png",
+        "timestamp": 1590057239258,
+        "duration": 7025
+    },
+    {
+        "description": "should update a user and validate the correct user is being updated Maria Saif|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "fc775e5c9d84235dfb2ad471c2910d54",
+        "instanceId": 18116,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Expected 'Mark saif' to match 'maria saif'."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:27:46)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "009f0060-0046-0095-00ee-002f0013004e.png",
+        "timestamp": 1590057246738,
+        "duration": 1956
+    },
+    {
+        "description": "should update a user and validate the correct user is being updated test user|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "fc775e5c9d84235dfb2ad471c2910d54",
+        "instanceId": 18116,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Expected 'Mark last name' to match 'first name last name'."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:27:46)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00530058-00a3-00ba-00ef-00be00da008d.png",
+        "timestamp": 1590057249054,
+        "duration": 1828
+    },
+    {
+        "description": "should add a user and validate the correct user is being added test user|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "fc775e5c9d84235dfb2ad471c2910d54",
+        "instanceId": 18116,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "009a002a-00b1-0024-0094-009900d30095.png",
+        "timestamp": 1590057251249,
+        "duration": 1844
+    },
+    {
+        "description": "should update a user and validate the correct user is being updated Maria Saif|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "fc775e5c9d84235dfb2ad471c2910d54",
+        "instanceId": 18116,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Expected 'Mark saif' to match 'maria saif'."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:27:46)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00c600fb-00c6-000d-0002-008000e600a0.png",
+        "timestamp": 1590057253458,
+        "duration": 1856
+    },
+    {
+        "description": "should update a user and validate the correct user is being updated test user|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "fc775e5c9d84235dfb2ad471c2910d54",
+        "instanceId": 18116,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Expected 'Mark last name' to match 'first name last name'."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:27:46)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00f6000c-0072-00ee-00a7-000200e700f2.png",
+        "timestamp": 1590057255671,
+        "duration": 1819
+    },
+    {
+        "description": "should add a user and validate the correct user is being added Maria Saif|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "4e7817faeb0bf15acedd80b9f377928f",
+        "instanceId": 19668,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00f6009a-007e-00fd-00f6-00a9001a00e6.png",
+        "timestamp": 1590057525814,
+        "duration": 6707
+    },
+    {
+        "description": "should add a user and validate the correct user is being added test user|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "4e7817faeb0bf15acedd80b9f377928f",
+        "instanceId": 19668,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00da00db-000c-006f-008f-001a000e00f3.png",
+        "timestamp": 1590057532970,
+        "duration": 1990
+    },
+    {
+        "description": "should update a user and validate the correct user is being updated Maria Saif|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "4e7817faeb0bf15acedd80b9f377928f",
+        "instanceId": 19668,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Expected 'Mark saif' to match 'maria saif'."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:29:46)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "006700ef-0067-0090-0097-002300a300df.png",
+        "timestamp": 1590057535344,
+        "duration": 2032
+    },
+    {
+        "description": "should update a user and validate the correct user is being updated test user|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "4e7817faeb0bf15acedd80b9f377928f",
+        "instanceId": 19668,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Expected 'Mark last name' to match 'first name last name'."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:29:46)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00190005-0072-0096-00c8-00ee001c0057.png",
+        "timestamp": 1590057537728,
+        "duration": 1779
+    },
+    {
+        "description": "should add a user and validate the correct user is being added Maria Saif|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "858d338e1b4acbd23cac9df43e207d37",
+        "instanceId": 8296,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "https://v2.zopim.com/w?nVHuz6qbGuVvOJgXZkNhXUUsmr9ROfjh - Failed to load resource: net::ERR_CONNECTION_RESET",
+                "timestamp": 1590057864540,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "008300c6-00b0-00b7-00d1-0056008000d7.png",
+        "timestamp": 1590057860172,
+        "duration": 6065
+    },
+    {
+        "description": "should add a user and validate the correct user is being added test user|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "858d338e1b4acbd23cac9df43e207d37",
+        "instanceId": 8296,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "0093004b-0094-002d-004d-00d100d300f2.png",
+        "timestamp": 1590057866647,
+        "duration": 2622
+    },
+    {
+        "description": "should update a user and validate the correct user is being updated Maria Saif|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "858d338e1b4acbd23cac9df43e207d37",
+        "instanceId": 8296,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Expected 'Mark saif' to match 'maria saif'."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:29:46)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "009d0076-0034-0009-003b-00730062007e.png",
+        "timestamp": 1590057869792,
+        "duration": 1806
+    },
+    {
+        "description": "should update a user and validate the correct user is being updated test user|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "858d338e1b4acbd23cac9df43e207d37",
+        "instanceId": 8296,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Expected 'Mark last name' to match 'first name last name'."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:29:46)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00560011-0014-003e-0005-007800b40073.png",
+        "timestamp": 1590057871958,
+        "duration": 1790
+    },
+    {
+        "description": "should add a user and validate the correct user is being added Maria Saif|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "673b1b9a279da13c79c95d585a725a2b",
+        "instanceId": 16028,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "000e0037-0048-002f-001e-00ba009900ae.png",
+        "timestamp": 1590058089549,
+        "duration": 6339
+    },
+    {
+        "description": "should add a user and validate the correct user is being added test user|Protractor Demo App",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "673b1b9a279da13c79c95d585a725a2b",
+        "instanceId": 16028,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00eb002a-0042-00eb-008e-0022004900a0.png",
+        "timestamp": 1590058096330,
+        "duration": 1849
+    },
+    {
+        "description": "should update a user and validate the correct user is being updated Maria Saif|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "673b1b9a279da13c79c95d585a725a2b",
+        "instanceId": 16028,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Expected 'Mark saif' to match 'maria saif'."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:29:46)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00e3002b-0047-0005-00f9-00de00c6003f.png",
+        "timestamp": 1590058098536,
+        "duration": 1836
+    },
+    {
+        "description": "should update a user and validate the correct user is being updated test user|Protractor Demo App",
+        "passed": false,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "673b1b9a279da13c79c95d585a725a2b",
+        "instanceId": 16028,
+        "browser": {
+            "name": "chrome",
+            "version": "83.0.4103.61"
+        },
+        "message": [
+            "Expected 'Mark last name' to match 'first name last name'."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at UserContext.<anonymous> (D:\\Proractor-workspace\\protractor_training\\specs\\JS-webtables_TC.js:29:46)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\maria.saif\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "00ab00f7-00df-004b-006f-00c000c000a8.png",
+        "timestamp": 1590058100739,
+        "duration": 1812
     }
 ];
 

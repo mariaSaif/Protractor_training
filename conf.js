@@ -5,11 +5,11 @@ exports.config = {
     seleniumAddress: 'http://localhost:4444/wd/hub',
     specs: [
       //'./specs/**/*.js',
-       // 'JS-Login_TC.js',
-       // 'JS-webtables_TC.js'
+      // './specs/JS-Login_TC.js',
+        './specs/JS-webtables_TC.js'
        //'./specs/jasmine_DataProvider.js'
       // './dataProvider/dataProviderExample.js'
-       './specs/React_App_TC.js'
+      // './specs/React_App_TC.js'
 ],
 framework: 'jasmine',
 
@@ -24,7 +24,7 @@ onPrepare: async()=> {
  },
  capabilities: {
    browserName: "chrome",
-   chromeOnly:true
+  // chromeOnly:true
    
    }
  
